@@ -1,13 +1,11 @@
 package com.rhappdeveloper.newsapp.ui.repository
 
-import android.util.Log
 import com.rhappdeveloper.newsapp.data.datasource.NewsDataSource
 import com.rhappdeveloper.newsapp.data.entity.NewsResponse
 import com.rhappdeveloper.utilities.ResourceState
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow
-import retrofit2.Response
 import javax.inject.Inject
 
 class NewsRepository @Inject constructor(
